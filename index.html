@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BIA-Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+  <div class="calculator">
+    <div class="display" id="display">0</div>
+    <div class="buttons">
+      <button class="btn gray" onclick="clearDisplay()">C</button>
+      <button class="btn gray" onclick="append('%')">%</button>
+      <button class="btn gray" onclick="append('/')">÷</button>
+      <button class="btn orange" onclick="append('*')">×</button>
+
+      <button class="btn" onclick="append('7')">7</button>
+      <button class="btn" onclick="append('8')">8</button>
+      <button class="btn" onclick="append('9')">9</button>
+      <button class="btn orange" onclick="append('-')">−</button>
+
+      <button class="btn" onclick="append('4')">4</button>
+      <button class="btn" onclick="append('5')">5</button>
+      <button class="btn" onclick="append('6')">6</button>
+      <button class="btn orange" onclick="append('+')">+</button>
+
+      <button class="btn" onclick="append('1')">1</button>
+      <button class="btn" onclick="append('2')">2</button>
+      <button class="btn" onclick="append('3')">3</button>
+      <button class="btn equal" onclick="calculate()">=</button>
+
+      <button class="btn zero" onclick="append('0')">0</button>
+      <button class="btn" onclick="append('.')">.</button>
+    </div>
+  </div>
+  <button id="installBtn" style="display:none;position:fixed;bottom:20px;right:20px;z-index:1000;">تثبيت التطبيق</button>
+
+  <script src="script.js"></script>
+  <script src="pwa.js"></script>
+</body>
+</html>
