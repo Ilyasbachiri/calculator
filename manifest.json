@@ -1,6 +1,6 @@
 {
   "name": "BIA-CALCULATOR",
-  "short_name": "حاسبة",
+  "short_name": "BIA-CALCULATOR",
   "description": "آلة حاسبة متقدمة مع دعم PWA",
   "start_url": "/",
   "display": "standalone",
