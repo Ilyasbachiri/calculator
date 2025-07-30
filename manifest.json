@@ -2,7 +2,7 @@
   "name": "BIA-CALCULATOR",
   "short_name": "BIA-CALCULATOR",
   "description": "آلة حاسبة متقدمة   ",
-  "start_url": "/",
+  "start_url": "https://ilyasbachiri.github.io/calculator/",
   "display": "standalone",
   "background_color": "#4a148c",
   "theme_color": "#4a148c",
