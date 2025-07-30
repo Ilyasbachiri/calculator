@@ -1,7 +1,7 @@
 {
   "name": "BIA-CALCULATOR",
   "short_name": "BIA-CALCULATOR",
-  "description": "آلة حاسبة متقدمة مع دعم PWA",
+  "description": "آلة حاسبة متقدمة   ",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#4a148c",
